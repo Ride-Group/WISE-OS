@@ -6,6 +6,25 @@ sudo docker-compose logs -f
 ```
 
 ```
+<!-- 排除依赖包 -->
+                    <layout>ZIP</layout>
+                    <includes>
+                        <include>
+                            <groupId>org.jeecgframework.boot</groupId>
+                            <artifactId>jeecg-boot-module-bbs</artifactId>
+                        </include>
+                    </includes>
+                    <!-- 排除依赖 -->
+                    
+<!-- 排除依赖包 -->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                
 <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
