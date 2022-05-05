@@ -116,7 +116,7 @@
                     <entryPoint>["java","-jar","${project.build.finalName}.jar"]</entryPoint>
 
                     <!-- 指定远程 Docker API地址  -->
-                    <dockerHost>http://121.196.99.215:10010</dockerHost>
+                    <!--<dockerHost>http://121.196.99.215:10010</dockerHost>-->
 
                     <!-- 复制 jar包到docker容器指定目录-->
                     <resources>
