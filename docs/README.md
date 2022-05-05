@@ -1,6 +1,8 @@
 ```shell
 mvn package
 mvn clean package
+
+sudo docker-compose build
 sudo docker-compose up -d
 sudo docker-compose logs -f
 ```
