@@ -295,8 +295,8 @@ justauth:
     timeout: 1h
 
 IMConfig:
-  sdkAppId:
-  secretKey:
+  sdkAppId: 1
+  secretKey: test
 
 weixin:
   appid:
