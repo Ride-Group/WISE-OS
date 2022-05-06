@@ -26,6 +26,7 @@ root
 http://49.232.6.131:8088/wise-dev
 http://49.232.6.131:8088/wise-dev/doc.html
 
+https://stroll.7otech.com
 https://stroll.7otech.com/wise-dev
 https://stroll.7otech.com/wise-dev/doc.html
 ```
