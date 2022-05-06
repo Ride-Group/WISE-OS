@@ -1,4 +1,6 @@
 ```shell
+git pull
+cd WISE-Fork/jeecg-boot
 mvn package
 mvn clean package
 
