@@ -86,7 +86,7 @@ module.exports = {
         }
       }, */
       '/jeecg-boot': {
-        target: 'http://127.0.0.1:10001', // 请求本地 需要jeecg-boot后台项目
+        target: 'http://49.232.6.131:8088', // 请求本地 需要jeecg-boot后台项目
         ws: false,
         changeOrigin: true
       }
