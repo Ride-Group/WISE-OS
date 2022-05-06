@@ -13,6 +13,12 @@ sudo docker-compose up -d jeecg-boot-system
 sudo docker-compose stop jeecg-boot-system
 
 sudo docker-compose logs -f
+
+mysql -h127.0.0.1 -uroot -p -P3308
+root
+
+use jeecg-boot
+show tables;
 ```
 
 ```
