@@ -27,6 +27,10 @@ http://49.232.6.131:8088/wise-dev
 http://49.232.6.131:8088/wise-dev/doc.html
 ```
 
+```shell
+https://github.com/hexojs/hexo/
+```
+
 ```
 <!-- 排除依赖包 -->
                     <layout>ZIP</layout>
