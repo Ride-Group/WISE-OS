@@ -4,6 +4,12 @@ mvn clean package
 
 sudo docker-compose build
 sudo docker-compose up -d
+sudo docker-compose down
+
+sudo docker-compose up jeecg-boot-system
+sudo docker-compose up -d jeecg-boot-system
+sudo docker-compose stop jeecg-boot-system
+
 sudo docker-compose logs -f
 ```
 
