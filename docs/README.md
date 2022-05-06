@@ -1,9 +1,9 @@
 ```shell
 git pull
-cd WISE-Fork/jeecg-boot
 cd WISE-Fork/jeecg-boot/jeecg-boot-module-system/src/main/resources
 vim a.txt
 ln -s a.txt application-dev1.yml
+cd ~/git/WISE-Fork/jeecg-boot
 mvn package
 mvn clean package
 
