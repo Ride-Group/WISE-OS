@@ -11,7 +11,7 @@
     <div class="copyright">
       Copyright
       <a-icon type="copyright"/>
-      2021 <span>行星环绕信息科技有限公司 出品</span>
+      2021 <span>北京蔷薇出行 出品</span>
     </div>
   </div>
 </template>
