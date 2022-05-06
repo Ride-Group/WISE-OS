@@ -28,6 +28,7 @@ http://49.232.6.131:8088/wise-dev/doc.html
 ```
 
 ```shell
+blog
 https://github.com/hexojs/hexo/
 ```
 
