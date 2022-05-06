@@ -86,7 +86,7 @@ module.exports = {
         }
       }, */
       '/jeecg-boot': {
-        target: 'http://49.232.6.131:8088', // 请求本地 需要jeecg-boot后台项目
+        target: 'https://stroll.7otech.com', // 请求本地 需要jeecg-boot后台项目
         ws: false,
         changeOrigin: true
       }
