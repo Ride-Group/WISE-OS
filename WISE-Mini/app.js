@@ -11,12 +11,12 @@ App({
   //全局配置项
   globalData: {
     //静态资源路径    userdata/用户上传图片路径   sys/系统图片  userinfo/用户信息路径
-    UPLOAD_IMAGE: 'https://静态资源域名/',
+    UPLOAD_IMAGE: 'https://stroll.7otech.com/',
     THUMBNAIL: '-topicthum', // 缩略图
     ARTWORK: '-topicimage', // 50%原图有水印
     ARTWORKWATER: '-topicimagewater100', //原图有水印
     ARTWORKNOWATER: '-topicimagenowater', //原图无水印
-
+    HOSTURL: 'https://stroll.7otech.com/wise-dev',
     // ********************************************************
     // 主机开发本地环境  配置本地静态ip方便调试
     // HOSTURL: 'http://本机IP:10002/wise-dev',
