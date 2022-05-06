@@ -148,7 +148,7 @@
                         </view>
                         <view>
                           <view class="flex topiccard--flex align-center topiccard--align-center">
-                            <view style="color:black;" class="sk-transparent sk-text-18-7500-50 sk-text">行星万象</view>
+                            <view style="color:black;" class="sk-transparent sk-text-18-7500-50 sk-text">蔷薇出行</view>
                             <view
                               class="cu-tag topiccard--cu-tag bg-red topiccard--bg-red sm topiccard--sm radius topiccard--radius sk-transparent sk-text-18-7500-582 sk-text"
                               style="display:;margin-left:5px;">

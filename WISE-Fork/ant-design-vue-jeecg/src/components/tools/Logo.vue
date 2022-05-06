@@ -21,7 +21,7 @@
     props: {
       title: {
         type: String,
-        default: '行星万象',
+        default: '蔷薇出行',
         required: false
       },
       showTitle: {

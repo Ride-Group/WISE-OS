@@ -130,7 +130,7 @@ public class BbsAuthController extends JeecgController<BbsReply, IBbsReplyServic
         String passwordEncode = PasswordUtil.encrypt(openid, openid, salt);
         user.setSalt(salt);
         user.setUsername(openid);
-        user.setUpdateBy("o_XHg4pJvz9U7d_RoU-oDWPiqBVE");   //行星万象
+        user.setUpdateBy("o_XHg4pJvz9U7d_RoU-oDWPiqBVE");   //蔷薇出行
         user.setUpdateTime(new Date());
         user.setCreateBy("o_XHg4pJvz9U7d_RoU-oDWPiqBVE");
         user.setCreateTime(new Date());

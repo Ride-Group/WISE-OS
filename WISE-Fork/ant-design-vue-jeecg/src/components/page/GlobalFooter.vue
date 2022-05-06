@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="links">
-      <a href="https://vtep.cn" target="_blank">行星万象 首页</a>
+      <a href="https://vtep.cn" target="_blank">蔷薇出行 首页</a>
       <a href="https://vtep.cn" target="_blank">
         <a-icon type="github"/>
       </a>
