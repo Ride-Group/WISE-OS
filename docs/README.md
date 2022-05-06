@@ -19,6 +19,8 @@ root
 
 use jeecg-boot
 show tables;
+
+mysql -h127.0.0.1 -uroot -p -P3308 jeecg-boot < ../../sql/wised.sql
 ```
 
 ```
