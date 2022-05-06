@@ -299,5 +299,5 @@ IMConfig:
   secretKey: test
 
 weixin:
-  appid:
+  appid: wx35b813d1be4aa975
   secret:

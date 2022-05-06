@@ -301,6 +301,6 @@ IMConfig:
 
 weixin:
   #  小程序appid
-  appid:
+  appid: wx35b813d1be4aa975
   #  小程序secret
   secret:
