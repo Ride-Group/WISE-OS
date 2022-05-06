@@ -6,7 +6,7 @@
           <a href="/">
             <img src="~@/assets/logo.png" class="logo" alt="logo">
             <!-- <img src="http://qn.no2.fun/sys/%E8%A1%8C%E6%98%9F%E4%B8%87%E8%B1%A1%E6%AD%A3%E6%96%B9%E5%BD%A2%E9%80%8F%E6%98%8E%E7%AB%8B%E4%BD%93.png" class="logo" alt="logo"> -->
-            <span class="title">行星万象信息共享平台</span>
+            <span class="title">蔷薇出行信息共享平台</span>
           </a>
         </div>
         <div class="desc">

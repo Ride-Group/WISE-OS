@@ -80,7 +80,7 @@ public class BbsAuthController extends JeecgController<BbsReply, IBbsReplyServic
     @Autowired
     private BbsAuthUtils bbsAuthUtils;
 
-    // ****行星万象修改位置戳****
+    // ****蔷薇出行修改位置戳****
     @GetMapping("/wise/mini/getToken")
     @AutoLog(value = "获取token和本地缓存数据")
     @ApiOperation(value = "获取token", notes = "获取token和本地缓存数据")

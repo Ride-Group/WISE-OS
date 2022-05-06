@@ -72,7 +72,7 @@ public class LoadDataRedis {
     /**
      * 此方法用于启动加载数据到redis，redis中的数据分为两部分管理
      * 一部分为JeecgBoot权限部门用户等信息
-     * 另一部分为行星万象的区域，帖子，板块排行和用户等数据
+     * 另一部分为蔷薇出行的区域，帖子，板块排行和用户等数据
      *
      * 区域，板块等信息加载后基本不变，修改后Reids和mysql同步
      * 帖子保持redis中最新，每天用定时任务去回写到mysql，在系统加载时如果redis中已经存在则不加载
@@ -83,7 +83,7 @@ public class LoadDataRedis {
         for (BbsRegion bbsRegion : bbsRegions) {
             //BbsRegion regionCode = (BbsRegion) redisUtil.get(BBS_REGION_REGIONCODE + bbsRegion.getRegionCode());
             redisUtil.set(BBS_REGION_REGIONCODE + bbsRegion.getRegionCode(), bbsRegion, BBS_REGION_REGIONCODE_TIME);
-            log.info("行星万象缓存加载区域：" + bbsRegion.getFullName());
+            log.info("蔷薇出行缓存加载区域：" + bbsRegion.getFullName());
         }
         for (BbsRegion bbsRegion : bbsRegions) {
             if (bbsRegion.getRegionStatus() != 2) {
@@ -93,7 +93,7 @@ public class LoadDataRedis {
             List<BbsClass> bbsClassList = bbsClassService.lambdaQuery().eq(BbsClass::getRegionCode, bbsRegion.getRegionCode()).list();
             for (BbsClass bbsClass : bbsClassList) {
                 redisUtil.set(BBS_CLASS_REGIONCODE_CLASSCODE + bbsRegion.getRegionCode() + "_" + bbsClass.getClassCode(), bbsClass, BBS_CLASS_REGIONCODE_CLASSCODE_TIME);
-                log.info("行星万象缓存加载版块：" + bbsClass.getClassName());
+                log.info("蔷薇出行缓存加载版块：" + bbsClass.getClassName());
                 //贴子排行榜
                 Page<BbsTopicFullDto> page = new Page<BbsTopicFullDto>(1, Integer.MAX_VALUE);
                 //前面为最新
@@ -104,14 +104,14 @@ public class LoadDataRedis {
                     //Iterator<ZSetOperations.TypedTuple<String>> iterator = typedTuples1.iterator();
                     //ZSetOperations.TypedTuple<String> next = iterator.next();
                     redisUtil.zAdd(BBS_RANK_REGION_CLASS + bbsRegion.getRegionCode() + "_" + bbsClass.getClassCode(), topicFullDto.getId(), score);
-                    log.info("行星万象缓存加载排行：" + bbsClass.getClassCode() + topicFullDto.getContent());
+                    log.info("蔷薇出行缓存加载排行：" + bbsClass.getClassCode() + topicFullDto.getContent());
 
                     //贴子，已经存在于redis的帖子不做更新，保证redis中的帖子是最新的
                     Object topic = redisUtil.get(BBS_TOPIC_TOPICID + topicFullDto.getId());
                     if (null == topic) {
                         redisUtil.set(BBS_TOPIC_TOPICID + topicFullDto.getId(), topicFullDto, BBS_TOPIC_TOPICID_TIME);
                     }
-                    log.info("行星万象缓存加载贴子：" + topicFullDto.getContent());
+                    log.info("蔷薇出行缓存加载贴子：" + topicFullDto.getContent());
                     score--;
                 }
             }

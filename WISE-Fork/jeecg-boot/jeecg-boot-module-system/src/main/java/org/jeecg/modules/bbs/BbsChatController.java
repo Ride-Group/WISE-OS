@@ -21,7 +21,7 @@ public class BbsChatController {
     @Autowired
     private UserSigService userSigService;
 
-    // ****行星万象修改位置戳****
+    // ****蔷薇出行修改位置戳****
     @GetMapping("/wise/mini/getUserSig")
     @AutoLog(value = "获取userSig")
     @ApiOperation(value = "获取userSig", notes = "获取userSig")

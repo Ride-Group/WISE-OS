@@ -16,7 +16,7 @@
 
 
 <view class='margin-xl bg-white padding-xl radius shadow-lg'>
-  <!-- <view class='text-center margin-bottom text-lg  text-grey'>感谢关注行星万象公众号</view> -->
+  <!-- <view class='text-center margin-bottom text-lg  text-grey'>感谢关注蔷薇出行公众号</view> -->
   <view class='text-content'>
     <view class='margin-top-sm'>这是我们的公众号</view>
     <view class='margin-top-sm'>您的任何互动信息都会通过公众号第一时间推送给您，您也随时可以从公众号进入小程序</view>

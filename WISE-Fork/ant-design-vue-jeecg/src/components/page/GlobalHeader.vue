@@ -17,7 +17,7 @@
         :type="collapsed ? 'menu-unfold' : 'menu-fold'"
         @click="toggle"/>
 
-      <span v-if="device === 'desktop'">欢迎进入行星万象区域信息共享平台</span>
+      <span v-if="device === 'desktop'">欢迎进入蔷薇出行区域信息共享平台</span>
       <span v-else>Jeecg-Boot</span>
 
       <user-menu :theme="theme"/>

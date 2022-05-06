@@ -2,7 +2,7 @@ const app = getApp();
 const formatUtil = require('../../utils/formatutil.js');
 const API = require('../../utils/API');
 const DevAsk = `<p class="MsoNormal" align="left" style="text-align:left;text-indent:21.0pt;">
-行星万象是行星环绕工作室开发的本地生活小程序，小伙伴可以在当下区域浏览发布各类如话题、吐槽、找对象、失物招领等信息。我们希望建立一个良性的交流环境，任何恶意发布反动、色情、租赁、诱导等信息的用户都将被永久封禁！ <span></span>
+蔷薇出行是行星环绕工作室开发的本地生活小程序，小伙伴可以在当下区域浏览发布各类如话题、吐槽、找对象、失物招领等信息。我们希望建立一个良性的交流环境，任何恶意发布反动、色情、租赁、诱导等信息的用户都将被永久封禁！ <span></span>
 </p>
 <p class="MsoNormal" align="left" style="text-align:left;text-indent:21.0pt;">
 每个人经历不同，自然会想法不同，看到三观不合的人或事，尽量理解，选择性接受，禁止互喷，否则管理员容易误伤。<span></span>
