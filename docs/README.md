@@ -22,6 +22,9 @@ show tables;
 
 mysql -h127.0.0.1 -uroot -p -P3308 jeecg-boot < ../../sql/wised.sql
 root
+
+http://49.232.6.131:8088/wise-dev
+http://49.232.6.131:8088/wise-dev/doc.html
 ```
 
 ```
